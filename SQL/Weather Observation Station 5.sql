@@ -2,7 +2,7 @@
 CITY names, as well as their respective lengths (i.e.: number of 
 characters in the name). If there is more than one smallest or 
 largest city, choose the one that comes first when ordered alphabetically.
-The STATION table is described as follows: */
+*/
 
 
 SELECT TOP 1 CITY, LEN(CITY) AS city_length FROM STATION ORDER BY city_length ASC, CITY ASC 
